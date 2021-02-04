@@ -1,0 +1,62 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        .landscape { visibility: hidden; }
+        .portrait { visibility: visible; }
+
+        @media (min-aspect-ratio: 1/1) {
+            .portrait { visibility: visible; }
+            .landscape { visibility: hidden; }
+        }
+
+        @media (min-aspect-ratio: 2/1) {
+            .portrait { visibility: hidden; }
+            .landscape { visibility: visible; }
+        }
+    </style>
+    <defs>
+      <linearGradient id="rainbow" x1="0" x2="100%" y1="0" y2="0" gradientUnits="userSpaceOnUse" >
+        <stop stop-color="#d25349" offset="0%"/>
+        <stop stop-color="#51F7FE" offset="100%"/>
+      </linearGradient>
+    </defs>
+<symbol id="ix" viewBox="0 0 13.229 13.229">
+  <g stroke="none" color="#000" font-weight="400" font-family="sans-serif">
+    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M5.49 4.358a.757.757 0 00-.47 1.35c1.522 1.206 2.526 2.378 2.984 3.439h-5.36v1.513h6.378a.757.757 0 00.75-.86c-.196-1.408-1.04-2.694-2.287-3.929h3.092V4.358z" overflow="visible" fill="#545454"/>
+    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M3.39.662a.757.757 0 00-.757.756v7.284h1.513V2.175h4.937v1.684h1.513v-2.44A.757.757 0 009.84.661zM2.633 11.04v1.527h1.513V11.04z" overflow="visible" fill="#d25349"/>
+  </g>
+</symbol>
+
+<symbol id="typography" viewbox="0 0 53 13">
+  <g font-weight="400">
+    <g aria-label="IMPLICITY" style="line-height:1.25;-inkscape-font-specification:'Bebas Neue'" font-size="30.351" font-family="Bebas Neue" letter-spacing=".77" fill="#d25349" stroke-width=".759">
+      <path d="M21.325 6.459h.66v4.202h-.66zM22.63 6.459h.943l.42 3.008h.012l.42-3.008h.943v4.202h-.625V7.48h-.012l-.48 3.182H23.7l-.48-3.182h-.013v3.182h-.576zM26.012 6.459h.973q.492 0 .738.264t.246.774v.415q0 .51-.246.774t-.738.264h-.312v1.711h-.66zm.973 1.891q.162 0 .24-.09.084-.09.084-.306v-.499q0-.216-.084-.306-.078-.09-.24-.09h-.312V8.35zM28.482 6.459h.66v3.602h1.087v.6h-1.747zM30.7 6.459h.66v4.202h-.66zM32.935 10.721q-.474 0-.727-.27-.246-.27-.246-.762V7.43q0-.492.246-.762.253-.27.727-.27t.72.27q.252.27.252.762v.445h-.624v-.487q0-.39-.33-.39t-.33.39v2.348q0 .384.33.384t.33-.384v-.643h.624v.595q0 .492-.252.762-.246.27-.72.27zM34.456 6.459h.66v4.202h-.66zM36.277 7.06h-.69v-.601h2.04v.6h-.69v3.602h-.66zM38.729 8.872L37.93 6.46h.703l.45 1.543h.012l.45-1.543h.643l-.799 2.413v1.79h-.66z" style="-inkscape-font-specification:'Bebas Neue'"/>
+    </g>
+    <g font-size="30.351" font-family="Bebas Neue" letter-spacing=".77" fill="#545454">
+      <path d="M21.325 1.66h1.801v.6h-1.14v1.11h.906v.601h-.906v1.29h1.14v.601h-1.8zM23.657 1.66h.978q.51 0 .745.24.234.234.234.726v.258q0 .655-.432.829v.012q.24.072.336.294.102.222.102.594v.739q0 .18.012.294.012.108.06.216h-.673q-.036-.102-.048-.192-.012-.09-.012-.324v-.769q0-.288-.096-.402-.09-.114-.318-.114h-.228v1.801h-.66zm.9 1.8q.198 0 .294-.101.102-.102.102-.343v-.324q0-.228-.084-.33-.078-.102-.252-.102h-.3v1.2zM26.228 1.66h1.747v.6H26.89v1.17h.852v.601h-.852v1.831h-.66zM28.446 1.66h1.8v.6h-1.14v1.11h.907v.601h-.907v1.29h1.14v.601h-1.8zM31.708 5.922q-.474 0-.727-.27-.246-.27-.246-.763V2.632q0-.492.246-.762.253-.27.727-.27t.72.27q.252.27.252.762v.444h-.624V2.59q0-.39-.33-.39t-.33.39v2.348q0 .384.33.384t.33-.384v-.643h.624v.594q0 .493-.252.763-.246.27-.72.27zM33.745 2.26h-.69v-.6h2.041v.6h-.69v3.602h-.66z" style="line-height:1.25;-inkscape-font-specification:'Bebas Neue'"/>
+    </g>
+    <g stroke="none" color="#000" font-family="sans-serif">
+      <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M15.585 4.358a.757.757 0 00-.47 1.35c1.523 1.206 2.527 2.378 2.985 3.439h-5.36v1.513h6.378a.757.757 0 00.75-.86c-.196-1.408-1.04-2.694-2.287-3.929h3.092V4.358z" overflow="visible" fill="#545454"/>
+      <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M13.486.662a.757.757 0 00-.757.756v7.284h1.513V2.175h4.937v1.684h1.513v-2.44a.757.757 0 00-.757-.757zM12.73 11.04v1.527h1.512V11.04z" overflow="visible" fill="#d25349"/>
+    </g>
+  </g>
+</symbol>
+
+<symbol id="retrato" viewbox="0 0 13.229 13.229">
+  <g stroke="none" color="#000" font-weight="400" font-family="sans-serif">
+    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M5.49 4.358a.757.757 0 00-.47 1.35c1.522 1.206 2.526 2.378 2.984 3.439h-5.36v1.513h6.378a.757.757 0 00.75-.86c-.196-1.408-1.04-2.694-2.287-3.929h3.092V4.358z" overflow="visible" fill="#545454"/>
+    <path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M3.39.662a.757.757 0 00-.757.756v7.284h1.513V2.175h4.937v1.684h1.513v-2.44A.757.757 0 009.84.661zM2.633 11.04v1.527h1.513V11.04z" overflow="visible" fill="#d25349"/>
+  </g>
+</symbol>
+
+    <symbol id="portrait" viewBox="0 0 14 14">
+        <use xlink:href="#retrato" x="0.3" y="0.3" width="50" height="50"/>
+        
+    </symbol>
+
+    <symbol id="landscape" viewBox="0 0 19 14">
+        <use xlink:href="#typography" x="-17" y="0.5" width="300" height="60"/>
+    </symbol>
+
+    <use class="portrait" xlink:href="#portrait" x="5%" y="5%" width="90%" height="90%"/>
+    <use class="landscape" xlink:href="#landscape" x="5%" y="5%" width="90%" height="90%"/>
+</svg>
