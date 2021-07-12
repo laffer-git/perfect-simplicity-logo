@@ -5,9 +5,7 @@
 ## Creator
  Luis Guerreiro
 
- @i.am.laffer
-
-https://www.laffer.pt
+ http://www.dribbble.com/laffer
 
 ## Information
  logo-responsive-dark.svg > For dark theme
